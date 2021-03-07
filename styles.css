@@ -1,0 +1,280 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f2f5f7;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 250px;
+  max-width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1rem;
+  height: 350px;
+}
+
+.card-two {
+  width: 450px;
+  height: 180px;
+}
+
+.card-three {
+  width: 340px;
+  height: 90px;
+}
+
+.card-comment {
+  width: 450px;
+  height: 100px;
+}
+
+.card-comment .card-body {
+  padding: 10px 30px;
+}
+
+.card-comment .card-body .card-title.skeleton {
+  min-height: 8px;
+  max-width: 90%;
+  margin: 20px 0;
+}
+
+.card-comment .card-body .card-sub-title {
+  font-weight: 700;
+}
+
+.card-comment .card-body .card-sub-title.skeleton {
+  min-height: 8px;
+  max-width: 80%;
+  margin: 6px 0;
+}
+
+.card-article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  width: 450px;
+  padding: 24px 0 12px;
+  height: auto;
+}
+
+.card-article .card-article-image span {
+  height: 75px;
+  width: 75px;
+  background-color: #e1e9ee;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.card-article .card-article-text .card-body {
+  padding-left: 0;
+}
+
+.card-article .card-article-text .card-body .card-title {
+  font-weight: 700;
+}
+
+.card-article .card-article-text .card-body .card-title.skeleton {
+  min-height: 8px;
+  max-width: 184px;
+  margin: 0px 0;
+}
+
+.card-article .card-article-text .card-body .card-sub-title {
+  font-weight: 700;
+}
+
+.card-article .card-article-text .card-body .card-sub-title.skeleton {
+  min-height: 8px;
+  max-width: 152px;
+  margin: 6px 0;
+}
+
+.card-article .card-img {
+  padding-bottom: 26.25%;
+}
+
+.card-right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.3fr 0.8fr;
+      grid-template-columns: 0.3fr 0.8fr;
+  margin: auto 0;
+  padding-top: 16px;
+}
+
+.card-right .card-article-image span {
+  height: 65px;
+  width: 65px;
+  background-color: #e1e9ee;
+  border-radius: 8%;
+  display: block;
+  margin: auto;
+}
+
+.card-right .card-article-text .card-body {
+  padding-left: 0;
+}
+
+.card-right .card-article-text .card-body .card-title {
+  font-weight: 700;
+}
+
+.card-right .card-article-text .card-body .card-title.skeleton {
+  min-height: 8px;
+  max-width: 100px;
+  margin: 0;
+}
+
+.card-right .card-article-text .card-body .card-sub-title {
+  font-weight: 700;
+}
+
+.card-right .card-article-text .card-body .card-sub-title.skeleton {
+  min-height: 8px;
+  max-width: 152px;
+  margin: 6px 0;
+}
+
+.card-right .card-img {
+  padding-bottom: 26.25%;
+}
+
+.card-article-description {
+  padding: 0 30px 12px;
+}
+
+.card-article-description .card-body {
+  padding: 0;
+}
+
+.card-article-description .card-body .card-title.skeleton {
+  color: rebeccapurple;
+  min-height: 8px;
+  max-width: 90%;
+  margin: 12px 0;
+}
+
+.card-article-description .card-body .card-sub-title {
+  font-weight: 700;
+}
+
+.card-article-description .card-body .card-sub-title.skeleton {
+  min-height: 8px;
+  max-width: 85%;
+  margin: 0;
+}
+
+.card-img {
+  padding-bottom: 46.25%;
+  position: relative;
+}
+
+.card-img img {
+  position: absolute;
+  width: 100%;
+}
+
+.card-img span {
+  height: 75px;
+  width: 75px;
+  background-color: #e1e9ee;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-title.skeleton {
+  min-height: 8px;
+  max-width: 124px;
+  margin: 20px auto 10px;
+}
+
+.card-sub-title {
+  font-weight: 700;
+}
+
+.card-sub-title.skeleton {
+  min-height: 8px;
+  max-width: 82px;
+  margin: 6px auto;
+}
+
+.card-intro {
+  margin-top: 0.75rem;
+  line-height: 1.5;
+}
+
+.card-intro.skeleton {
+  min-height: 72px;
+  border-radius: 4px;
+}
+
+.skeleton {
+  background-color: #d3dce2;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-size: 40px 100%;
+  background-repeat: no-repeat;
+  background-position: left -40px top 0;
+  -webkit-animation: shine 1s ease infinite;
+          animation: shine 1s ease infinite;
+}
+
+@-webkit-keyframes shine {
+  to {
+    background-position: right -40px top 0;
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position: right -40px top 0;
+  }
+}
+
+.grid-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "grid-one" "grid-two" "grid-three";
+}
+
+.grid-one {
+  grid-area: "grid-one";
+}
+
+.grid-two {
+  grid-area: "grid-one";
+}
+
+.grid-three {
+  grid-area: "grid-one";
+}
+/*# sourceMappingURL=styles.css.map */
